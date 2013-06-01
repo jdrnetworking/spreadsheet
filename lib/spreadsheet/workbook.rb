@@ -14,7 +14,8 @@ module Spreadsheet
     include Spreadsheet::Encodings
     attr_reader :io, :worksheets, :formats, :fonts, :palette
     attr_accessor :active_worksheet, :encoding, :default_format, :version
-    def initialize io = nil, opts={:default_format => Format.new}
+    def initialize io = nil, opts={}
+      opts = { :default_format => Format.new }.merge(opts)
       @worksheets = []
       @io = io
       @fonts = []
