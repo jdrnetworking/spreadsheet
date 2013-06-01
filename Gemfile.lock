@@ -5,7 +5,7 @@ PATH
       ruby-ole
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     hoe (3.4.1)
       rake (>= 0.8, < 11.0)
