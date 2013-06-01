@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    spreadsheet (0.7.3)
+    spreadsheet (0.8.5)
       ruby-ole
 
 GEM
